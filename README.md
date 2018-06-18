@@ -15,8 +15,7 @@ ec.gm.tracks.input
 The main logic contains backtracking (recursivity) to obtain the solution
 
 
-###############################
-FILE STRUCTURE
+## FILE STRUCTURE
 ###############################
 
 Project directory contains:
@@ -27,8 +26,7 @@ src/test/java - Contains source code for the unit tests
 Files:
 pom.xml - Maven POM descriptor used to build an executable jar, and execute unit tests
 
-###############################
-PREREQUISITES
+## PREREQUISITES
 ###############################
 
 Java version 7 is required, and shall be accesible from command line
@@ -37,8 +35,7 @@ JAVA_HOME whose value is Java installation directory
 PATH, adding the variable JAVA_HOME followed by subdirectory bin
 
 
-###############################
-INSTRUCTIONS TO COMPILE
+## INSTRUCTIONS TO COMPILE
 ###############################
 
 Apache Maven is required, can be executed from command line or an IDE, personally I use Eclipse IDE.
@@ -57,8 +54,7 @@ mvn clean install
 this should create a subdirectory target in the current directory containing the file conference-tracks-0.0.1-SNAPSHOT.jar
 this file is the executable compiled jar
 
-###############################
-TO RUN UNIT TESTS
+## TO RUN UNIT TESTS
 ###############################
 
 Same command as compiling:
@@ -70,8 +66,7 @@ mvn clean install
 
 this should create a subdirectory surefire-reports in the current directory containing the junit reports
 
-###############################
-INSTRUCTIONS TO RUN THE APP
+## INSTRUCTIONS TO RUN THE APP
 ###############################
 
 Place the executable jar file conference-tracks-0.0.1-SNAPSHOT.jar (found in directory target after compiling) and input text file containing the talks, in the same directory
@@ -89,8 +84,7 @@ Cannot find talks file, place a file named talks in the current directory
 
 If talks file is found in the same directory, the program will execute and show the output
 
-###############################
-RUNNING THE APP WITH PROVIDED FILE
+## RUNNING THE APP WITH PROVIDED FILE
 ###############################
 Place the executable jar file conference-tracks-0.0.1-SNAPSHOT.jar and talks file (provided in the directory src/main/resources), in the same directory
 The provided file is a text file that contains the talks definition (Test input) defined in PROBLEM TWO: CONFERENCE TRACK MANAGEMENT spec
