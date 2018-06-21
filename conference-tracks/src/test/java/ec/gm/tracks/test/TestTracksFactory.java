@@ -11,7 +11,16 @@ import ec.gm.tracks.model.Talk;
 import ec.gm.tracks.model.Track;
 import ec.gm.tracks.process.TracksFactory;
 
+/**
+ * {@link TracksFactory} tests
+ * @author galo
+ *
+ */
 public class TestTracksFactory {
+	/**
+	 * Test building a track list, that is a list of {@link Track} that compose a conference
+	 * @throws Exception
+	 */
 	@Test 
 	public void testBuildTrackList () throws Exception {
 		List<Talk> talks = new ArrayList<Talk> ();

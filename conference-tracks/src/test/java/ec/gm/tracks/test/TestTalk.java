@@ -8,7 +8,16 @@ import org.junit.Test;
 
 import ec.gm.tracks.model.Talk;
 
+/**
+ * {@link Talk} tests
+ * @author galo
+ *
+ */
 public class TestTalk {
+	/**
+	 * Test formatting {@link Talk}
+	 * @throws Exception
+	 */
 	@Test 
 	public void testTalkFormatting () throws Exception {
 		Talk talk = new Talk();

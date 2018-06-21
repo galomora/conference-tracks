@@ -11,7 +11,16 @@ import ec.gm.tracks.model.Session;
 import ec.gm.tracks.model.Talk;
 import ec.gm.tracks.process.SessionFactory;
 
+/**
+ * {@link SessionFactory} tests
+ * @author galo
+ *
+ */
 public class TestSessionFactory {
+	/**
+	 * Test building morning session
+	 * @throws Exception
+	 */
 	@Test
 	public void testBuildMorningSession () throws Exception {
 		SessionFactory factory = new SessionFactory();
