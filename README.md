@@ -1,6 +1,8 @@
 # conference-tracks
 Implementation of Conference Tracks problem
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d726f02788b048bc8abcf148a751da72)](https://www.codacy.com/app/galomora/conference-tracks?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=galomora/conference-tracks&amp;utm_campaign=Badge_Grade)
+
 Greetings
 
 I have chosen PROBLEM TWO: CONFERENCE TRACK MANAGEMENT
